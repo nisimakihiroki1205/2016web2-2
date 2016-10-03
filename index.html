@@ -8,19 +8,16 @@
      $(function(){
       $("#toggle").on("click",function(){
        $("#target").toggle("slow");
-     $("p").bind("click", function(){
-  alert( $(this).text(text) );
+      $("p").bind("click", function(){
+  alert( $(this).text() );
 });
-      
        });
        });
-      
-
        </script>
   </head>
     <body bgcolor="#99fff5">
-      <div id="target">こんな世界で大丈夫か</div>
-      <button id="toggle">答え</button>
       <div id="target">こんな世界で大丈夫か？</div>
+      <button id="toggle">答え</button>
+      <p>aaaaaaaa<p>
   </body>
     </html>
